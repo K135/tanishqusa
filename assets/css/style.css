@@ -14,6 +14,15 @@
 body{
   overflow-x: hidden;
 }
+.primaryText{
+  text-decoration: none;
+  font-size: 22px;
+  font-family: "canela";
+  margin-right: 5%;
+  letter-spacing: 3px;
+  color: #9a0f73;
+  font-weight: 700;
+}
 .section {
   margin-top: 8%;
 }
@@ -81,15 +90,7 @@ p {
   justify-content: flex-end;
   margin-bottom: 5%;
 }
-.newEdition .buttons a{
-  text-decoration: none;
-  font-size: 22px;
-  font-family: "canela";
-  margin-right: 5%;
-  letter-spacing: 3px;
-  color: #9a0f73;
-  font-weight: 700;
-}
+
 .newEdition .sideimgmbl2 {
  display: none;
 }
@@ -168,7 +169,7 @@ p {
 
 /* Slider #2 */
 .btns {
-  margin: 8%;
+  margin: 14%;
 }
 
 .slider2Container .carousel-control-next,
@@ -197,6 +198,11 @@ p {
 .slider2pic {
   width: 100%;
   height: 100%;
+}
+
+.slider2Container .primaryText{
+  margin-left: 2%;
+  font-size: 28px;
 }
 
 .sliderContainer .carousel-control-next .carousel-control-next-icon,
@@ -345,7 +351,7 @@ p {
     top: 0%;
   }
   .slider2Container .carousel-control-next {
-    left: 15%;
+    left: 20%;
     opacity: 1;
   }
   .slider2Container .carousel-control-prev {
