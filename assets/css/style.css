@@ -36,7 +36,7 @@ p {
   font-family: "poppins";
   font-size: 22px;
   line-height: 2;
-  height: 19rem;
+  height: 13rem;
 }
 .header {
 
@@ -136,7 +136,7 @@ p {
 }
 
 .sliderContainer p{
-  font-size: 19px;
+  font-size: 22px;
 }
 
 .slider2Container {
@@ -147,7 +147,6 @@ p {
   text-align: center;
   margin-bottom: 2%;
   color: #034849;
-  
   font-family: "canela";
   font-size: 3.5rem;
 }
@@ -341,6 +340,7 @@ p {
   }
   .sliderContainer .heading{
     margin-bottom: 4%;
+    font-size: 2.5rem;
   }
   .sliderContainer .carousel-inner{
     height: 26rem;
