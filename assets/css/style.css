@@ -36,6 +36,7 @@ p {
   font-family: "poppins";
   font-size: 22px;
   line-height: 2;
+  height: 19rem;
 }
 .header {
 
@@ -397,6 +398,7 @@ p {
   }
   .slider2Row p {
     padding-top: 15%;
+    height: 19rem;
   }
   .slider2Container .slider2pic {
     width: 100%;
