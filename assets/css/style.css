@@ -135,9 +135,7 @@ p {
   padding-bottom: 15%;
 }
 
-.sliderContainer p{
-  font-size: 22px;
-}
+
 
 .slider2Container {
   padding: 2%;
@@ -280,7 +278,7 @@ p {
     margin-top: 20%;
   }
   p {
-    font-size: 19px;
+    font-size: 17px;
   }
 
   .header {
