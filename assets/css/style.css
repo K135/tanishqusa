@@ -50,6 +50,7 @@ body{
   font-weight: 400;
   margin-left: 20px;
   font-size: 3.5rem;
+  margin-bottom: -7%;
 
 }
 
@@ -300,6 +301,27 @@ p {
   .section {
     margin-top: 20%;
   }
+  .sliderContainer {
+
+    margin-left: -50px;
+}
+.slider2Container .sliderContent {
+    padding-top: 10%;
+    margin-left: -25px;
+}
+.slider2pic .container{
+padding-right: 0px !important;
+padding-left:  0px !important;
+padding-right: var(--bs-gutter-x,0rem);
+padding-left: var(--bs-gutter-x,.0rem);
+
+
+}
+.mainHeading{
+  font-size: 2.5rem;
+  margin-bottom: 0px;
+}
+
   p {
     font-size: 17px;
   }
@@ -364,7 +386,7 @@ p {
     font-size: 2.5rem;
   }
   .sliderContainer .carousel-inner{
-    height: 26rem;
+    height: 21rem;
   }
   .sliderImgSection{
     display: flex;
@@ -390,8 +412,11 @@ p {
   .slider2Container {
     margin-top: 5%;
   }
+  .slider2Container .row {
+    --bs-gutter-x: 0rem;
+}
   .contentHeading {
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin-left: 3px;
   }
   .slider2Container .container-fluid {
@@ -400,7 +425,15 @@ p {
   .btns {
     position: relative;
     margin-top: 10%;
+    margin-left: 0px;
   }
+  .btn-dark {
+    margin-left: 0px;
+  }
+  .newEdition .buttons {
+
+    margin-top: -50px;
+}
 
   .slider2Container .carousel-control-next,
   .slider2Container .carousel-control-prev {
