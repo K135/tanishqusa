@@ -14,10 +14,13 @@
 {
  
   color: pink ;
-  background-color:r#9a0f73;
+  background-color:#9a0f73;
     border-color: #d9d9d9;
     font-family: "poppins";
     font-weight: 700;
+    margin-left: 23px;
+    margin-top: 10px;
+
 }
 .btn-dark:hover {
   color: #9a0f73;
@@ -45,6 +48,9 @@ body{
   font-family: "canela";
   color: #034849;
   font-weight: 400;
+  margin-left: 20px;
+  font-size: 3.5rem;
+
 }
 
 p {
