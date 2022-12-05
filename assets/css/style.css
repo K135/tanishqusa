@@ -10,6 +10,21 @@
   font-family: "poppins";
   src: url("./Poppins-Regular.ttf");
 }
+.btn-dark
+{
+ 
+  color: pink ;
+  background-color:r#9a0f73;
+    border-color: #d9d9d9;
+    font-family: "poppins";
+    font-weight: 700;
+}
+.btn-dark:hover {
+  color: #9a0f73;
+  background-color: pink;
+  border-color:pink;
+  font-weight: 500;
+}
 
 body{
   overflow-x: hidden;
@@ -110,6 +125,7 @@ p {
 .newEdition p {
   font-size: 24px;
   line-height: 2;
+  height: 17rem;
 }
 .img {
   display: flex;
@@ -190,7 +206,7 @@ p {
   position: absolute;
   height: max-content;
   width: max-content;
-  top: 38%;
+  top: 50%;
 }
 
 .slider2Container .sliderContent {
@@ -301,7 +317,7 @@ p {
     font-size: 2.5rem;
   }
   .heading{
-    text-align: center;
+    text-align: left;
   }
 
   .newEdition p{
@@ -320,8 +336,8 @@ p {
   }
 
   .peacock .peacockImg {
-    width: 30%;
-    left: 68% !important;
+    width: 43%;
+    left: 55% !important;
     transform: rotateY(180deg);
     -webkit-transform: rotateY(180deg);
     -moz-transform: rotateY(180deg);
