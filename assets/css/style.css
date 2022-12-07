@@ -19,7 +19,7 @@
     font-family: "poppins";
     font-weight: 700;
     margin-left: 23px;
-    margin-top: 10px;
+    margin-top: 145px;
 
 }
 .btn-dark:hover {
@@ -29,6 +29,16 @@
   font-weight: 500;
 }
 
+
+.botn{
+  color: pink ;
+  background-color:#9a0f73;
+    border-color: #d9d9d9;
+    font-family: "poppins";
+    font-weight: 700;
+    margin-left: 23px;
+    margin-top: 0px;
+}
 body{
   overflow-x: hidden;
 }
@@ -132,7 +142,13 @@ p {
 .newEdition p {
   font-size: 24px;
   line-height: 2;
-  height: 17rem;
+  height: 14rem;
+}
+.chal{
+  color: #034849;
+}
+.chal:hover{
+  color: #034849;
 }
 .img {
   display: flex;
@@ -339,7 +355,8 @@ padding-left: var(--bs-gutter-x,.0rem);
     padding-top: 150%;
   }
   .leftSide .sideimg1 {
-    width: 100%;
+    width: 104%;
+    margin-left: -11px;
   }
   .newEdition .mainHeading {
     text-align: left;
@@ -365,8 +382,8 @@ padding-left: var(--bs-gutter-x,.0rem);
   }
 
   .peacock .peacockImg {
-    width: 43%;
-    left: 55% !important;
+    width: 37%;
+    left: 63% !important;
     transform: rotateY(180deg);
     -webkit-transform: rotateY(180deg);
     -moz-transform: rotateY(180deg);
@@ -429,6 +446,7 @@ padding-left: var(--bs-gutter-x,.0rem);
   }
   .btn-dark {
     margin-left: 0px;
+    margin:auto;
   }
   .newEdition .buttons {
 
@@ -456,7 +474,8 @@ padding-left: var(--bs-gutter-x,.0rem);
     height: 19rem;
   }
   .slider2Container .slider2pic {
-    width: 100%;
+    width: 117%;
+    margin-left: -29px;
   }
 
   .video img {
